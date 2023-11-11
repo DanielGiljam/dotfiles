@@ -1,7 +1,3 @@
-### MANAGED BY RANCHER DESKTOP START (DO NOT EDIT)
-set --export --prepend PATH "$HOME.rd/bin" # (still edited because it was exposing my home path)
-### MANAGED BY RANCHER DESKTOP END (DO NOT EDIT)
-
 # Disable fish greeting
 set -g fish_greeting ""
 
