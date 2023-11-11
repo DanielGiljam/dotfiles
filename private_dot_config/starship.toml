@@ -12,6 +12,10 @@
 [aws]
 disabled = true
 
+# Disable Docker Context module
+[docker_context]
+disabled = true
+
 # Customize Git Status module to look like P10K
 [git_status]
 format = '($ahead_behind$stashed$conflicted$staged$renamed$deleted$typechanged$modified$untracked)'
