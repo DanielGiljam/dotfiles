@@ -16,6 +16,10 @@ disabled = true
 [docker_context]
 disabled = true
 
+# Disable DOTNET module
+[dotnet]
+disabled = true
+
 # Customize Git Status module to look like P10K
 [git_status]
 format = '($ahead_behind$stashed$conflicted$staged$renamed$deleted$typechanged$modified$untracked)'
@@ -60,8 +64,9 @@ format = '(via [$symbol($version )]($style))'
 [deno]
 format = '(via [$symbol($version )]($style))'
 
-[dotnet]
-format = '(via [$symbol($version )(🎯 $tfm )]($style))'
+# (Commented out since it was already disabled up top)
+# [dotnet]
+# format = '(via [$symbol($version )(🎯 $tfm )]($style))'
 
 [elixir]
 format = '(via [$symbol($version \(OTP $otp_version\) )]($style))'
