@@ -5,3 +5,10 @@ if status is-interactive
     # Initialize Starship prompt
     starship init fish | source
 end
+
+# pnpm
+set -gx PNPM_HOME "/Users/danielgiljam/Library/pnpm"
+if not string match -q -- $PNPM_HOME $PATH
+  set -gx PATH "$PNPM_HOME" $PATH
+end
+# pnpm end
