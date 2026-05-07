@@ -13,4 +13,7 @@ if status is-interactive
     # Add Git abbreviations
     abbr --add grhhu -- git reset --hard @{u}
     abbr --add grbu -- git rebase @{u}
+
+    # Add PNPM + Nx abbreviations
+    abbr --add pnx -- pnpm nx
 end
