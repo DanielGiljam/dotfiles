@@ -9,4 +9,8 @@ if status is-interactive
 
     # Initialize Starship prompt
     starship init fish | source
+
+    # Add Git abbreviations
+    abbr --add grhhu -- git reset --hard @{u}
+    abbr --add grbu -- git rebase @{u}
 end
